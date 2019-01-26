@@ -1,21 +1,27 @@
 <!DOCTYPE HTML>
-<!--
-	Aesthetic by gettemplates.co
-	Twitter: http://twitter.com/gettemplateco
-	URL: http://gettemplates.co
--->
+<?php
+    $name = "Bayu Diarsa";
+    $ulr = "https://www.bayudiarsa.com";
+    $facebook = "https://www.facebook.com/bdiarsa";
+    $twitter = "https://www.twitter.com/BAYUdiarsa";
+    $instagram = "https://www.instagram.com/bayudiarsa";
+    $telegram = "https://t.me/diarsa";
+    $wa = "https://wa.me/6281339377005";
+    $linkedin = "https://linkedin.com/in/bdiarsa";
+
+    $email = "hai@bayudiarsa.com";
+    $nomor = "+6281339377005";
+?>
 <html>
 	<head>
-		<meta name="google-site-verification" content="vWopUAgpvhno6MEE4u460QjGGo0wr-EnvPWxlQ8PE1c" />
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Bayu Diarsa | Website Resmi</title>
+	<title><?php echo $name; ?> | Website Resmi</title>
+	<link rel="shortcut icon" href="/main/images/bd.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="website resmi Bayu Diarsa" />
-	<meta name="keywords" content="bayu diarsa, website resmi, teknologi, masa kini, bangli, bali, indonesia" />
+	<meta name="keywords" content="bayu diarsa, website resmi, blog" />
 	<meta name="author" content="gettemplates.co" />
-
-	<link rel="shortcut icon" href="/images/bd_3dj_icon.ico" />
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -28,32 +34,32 @@
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
 
-	<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
 
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="main/css/animate.css">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="main/css/icomoon.css">
 	<!-- Themify Icons-->
-	<link rel="stylesheet" href="css/themify-icons.css">
+	<link rel="stylesheet" href="main/css/themify-icons.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="main/css/bootstrap.css">
 
 	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="main/css/magnific-popup.css">
 
 	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="main/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="main/css/owl.theme.default.min.css">
 
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="main/css/style.css">
 
 	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="main/js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
+	<script src="main/js/respond.min.js"></script>
 	<![endif]-->
 
 
@@ -73,6 +79,8 @@
 	</head>
 	<body>
 
+
+
 	<div class="gtco-loader"></div>
 
 	<div id="page">
@@ -81,17 +89,17 @@
 			<div class="row">
 				<div class="col-md-12 text-right gtco-contact">
 					<ul class="">
-						<li><a href="tel:+6281339377005"><i class="ti-mobile"></i> 081 339 377 005 </a></li>
-						<li><a href="http://facebook.com/bdiarsa"><i class="ti-facebook"></i></a></li>
-						<li><a href="http://twitter.com/BAYUdiarsa"><i class="ti-twitter-alt"></i> </a></li>
-						<li><a href="mailto:hai@bayudiarsa.com"><i class="icon-mail2"></i></a></li>
+						<li><a href="tel:<?php echo $nomor; ?>"><i class="ti-mobile"></i> <?php echo $nomor; ?> </a></li>
+						<li><a href="<?php echo $facebook; ?>"><i class="ti-facebook"></i></a></li>
+						<li><a href="<?php echo $twitter; ?>"><i class="ti-twitter-alt"></i> </a></li>
+						<li><a href="mailto:<?php echo $email; ?>"><i class="icon-mail2"></i></a></li>
 
 					</ul>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-4 col-xs-12">
-					<div id="gtco-logo"><a href="">Bayu Diarsa <em></em></a></div>
+					<div id="gtco-logo"><a href=""><?php echo $name; ?> <em></em></a></div>
 				</div>
 				<div class="col-xs-8 text-right menu-1">
 					<ul>
@@ -100,12 +108,13 @@
 						<li class="has-dropdown">
 							<a href="#">Social Media</a>
 							<ul class="dropdown">
-								<li><a href="https://facebook.com/bdiarsa">Facebook</a></li>
-								<li><a href="https://twitter.com/BAYUdiarsa">Twitter</a></li>
-								<li><a href="https://instagram.com/bayudiarsa">Instagram</a></li>
-								<li><a href="https://wa.me/6281339377005">WA</a></li>
+								<li><a href="<?php echo $facebook; ?>">Facebook</a></li>
+								<li><a href="<?php echo $twitter; ?>">Twitter</a></li>
+								<li><a href="<?php echo $instagram; ?>">Instagram</a></li>
+								<li><a href="<?php echo $telegram; ?>">Telegram</a></li>
+								<li><a href="<?php echo $wa; ?>">WA</a></li>
 								<li><a href="#7C4DB6EC">BBM</a></li>
-								<li><a href="https://line.me/bayudiarsa">Line</a></li>
+								<li><a href="#bayudiarsa">Line</a></li>
 							</ul>
 						</li>
 						<li><a href="#gtco-footer">Contact</a></li>
@@ -116,18 +125,19 @@
 		</div>
 	</nav>
 
-	<header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url(images/img_bg_1.jpg);">
+	<header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url(main/images/img_bg_1.jpg);">
 		<div class="overlay"></div>
 		<div class="gtco-container">
 			<div class="row">
 				<div class="col-md-12 col-md-offset-0 text-left">
 					<div class="display-t">
 						<div class="display-tc">
-							<h1 class="animate-box" data-animate-effect="fadeInUp">Selamat datang di website resmi Bayu Diarsa</h1>
-							<h2 class="animate-box" data-animate-effect="fadeInUp">scroll ke bawah untuk lebih lengkap</h2>
-							<p class="animate-box" data-animate-effect="fadeInUp">
-								<a href="#gtco-portfolio" class="btn btn-white btn-lg btn-outline">Karya</a>
-								<a href="/blog" class="btn btn-white btn-lg btn-outline">Blog</a>
+							<!--<h1 class="animate-box " data-animate-effect="fadeInUp ">Selamat datang di website resmi saya</h1>-->
+							<h1 class="animate-box " data-animate-effect="fadeInUp">Welcome to official website Bayu Diarsa</h1>
+							<h2 class="animate-box " data-animate-effect="fadeInUp">scroll ke bawah untuk info lebih lengkap</h2>
+							<p class="animate-box " data-animate-effect="fadeInUp">
+							    <a href="#karya" class="btn btn-white btn-lg btn-outline">Karya</a>
+							    <a href="/blog" class="btn btn-white btn-lg btn-outline">Blog</a>
 							</p>
 						</div>
 					</div>
@@ -139,7 +149,7 @@
 	<div id="gtco-features-3">
 		<div class="gtco-container">
 			<div class="gtco-flex">
-				<div class="feature feature-1 animate-box" data-animate-effect="fadeInUp">
+				<div class="feature feature-1 animate-box " data-animate-effect="fadeInUp">
 					<div class="feature-inner">
 						<span class="icon">
 							<i class="ti-announcement"></i>
@@ -149,17 +159,17 @@
 						<p><a href="/blog" class="btn btn-white btn-outline">Klik</a></p>
 					</div>
 				</div>
-				<div class="feature feature-2 animate-box" data-animate-effect="fadeInUp">
+				<div class="feature feature-2 animate-box " data-animate-effect="fadeInUp">
 					<div class="feature-inner">
 						<span class="icon">
 							<i class="ti-ruler-pencil"></i>
 						</span>
 						<h3>Blog Tutorial</h3>
 						<p>Sebuah blog tutorial tentang segala sesuatu yang pernah dan sempat saya dokumentasikan. </p>
-						<p><a href="http://diarsas.blogspot.com" class="btn btn-white btn-outline">Klik</a></p>
+						<p><a href="http://orangketik.com" class="btn btn-white btn-outline">Klik</a></p>
 					</div>
 				</div>
-				<div class="feature feature-3 animate-box" data-animate-effect="fadeInUp">
+				<div class="feature feature-3 animate-box " data-animate-effect="fadeInUp">
 					<div class="feature-inner">
 						<span class="icon">
 							<i class="ti-vector"></i>
@@ -176,14 +186,14 @@
 	<div id="gtco-features">
 		<div class="gtco-container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box ">
 					<h2>Motto</h2>
 					<p>Selalu berusaha semaksimal mungkin.</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-3 col-sm-6">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
+					<div class="feature-center animate-box " data-animate-effect="fadeIn">
 						<span class="icon">
 							<i class="ti-ruler-pencil"></i>
 						</span>
@@ -192,7 +202,7 @@
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
+					<div class="feature-center animate-box " data-animate-effect="fadeIn">
 						<span class="icon">
 							<i class="ti-settings"></i>
 						</span>
@@ -201,7 +211,7 @@
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
+					<div class="feature-center animate-box " data-animate-effect="fadeIn">
 						<span class="icon">
 							<i class="ti-vector"></i>
 						</span>
@@ -210,7 +220,7 @@
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6">
-					<div class="feature-center animate-box" data-animate-effect="fadeIn">
+					<div class="feature-center animate-box " data-animate-effect="fadeIn">
 						<span class="icon">
 							<i class="ti-tablet"></i>
 						</span>
@@ -224,19 +234,19 @@
 		</div>
 	</div>
 
-	<div id="gtco-portfolio" class="gtco-section">
+	<div id="karya" class="gtco-section">
 		<div class="gtco-container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading ">
 					<h2>Karya</h2>
-					<p>Berikut ini beberapa karya dari saya.</p>
+					<!--<p>Berikut ini beberapa karya dari saya.</p>-->
 				</div>
 			</div>
 
 			<div class="row row-pb-md">
 				<div class="col-md-12">
 					<ul id="gtco-portfolio-list">
-						<li class="one-half " data-animate-effect="fadeIn" style="background-image: url(images/img_4.jpg); ">
+						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_4.jpg); ">
 							<a href="https://ppifilipina.org" target="_blank" class="color-4">
 								<div class="case-studies-summary">
 									<span>Web Organisasi</span>
@@ -244,7 +254,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-half " data-animate-effect="fadeIn" style="background-image: url(images/img_3.jpg); ">
+						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_3.jpg); ">
 							<a href="https://orangketik.com" target="_blank" class="color-1">
 								<div class="case-studies-summary">
 									<span>Blog</span>
@@ -252,15 +262,15 @@
 								</div>
 							</a>
 						</li>
-						<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_1.jpg); ">
+						<li class="two-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_1.jpg); ">
 							<a href="https://bpbd.banglikab.go.id/daftarpengungsi" target="_blank" class="color-1">
 								<div class="case-studies-summary">
 									<span>Web App</span>
-									<h2>Sistem Manajemen Pengungsi - BPBD Bangli </h2>
+									<h2>Sistem Manajemen Pengungsi - BPBD Bangli Bali </h2>
 								</div>
 							</a>
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_2.jpg); ">
+						<li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_2.jpg); ">
 							<a href="http://desalabasari.com" target="_blank" class="color-2">
 								<div class="case-studies-summary">
 									<span>Web Desa</span>
@@ -269,7 +279,7 @@
 							</a>
 						</li>
 
-						<li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_3.jpg); ">
+						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_3.jpg); ">
 							<a href="https://potensi.banglikab.go.id" target="_blank" class="color-3">
 								<div class="case-studies-summary">
 									<span>Web App</span>
@@ -277,7 +287,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-half animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_4.jpg); ">
+						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_4.jpg); ">
 							<a href=" https://maimelali.banglikab.go.id" target="_blank" class="color-4">
 								<div class="case-studies-summary">
 									<span>Web App</span>
@@ -286,15 +296,15 @@
 							</a>
 						</li>
 
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_5.jpg); ">
-							<a href="http://www.youtube.com/c/BayuDiarsa" target="_blank" class="color-5">
+						<li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_5.jpg); ">
+							<a href="http://www.youtube.com/BayuDiarsa" target="_blank" class="color-5">
 								<div class="case-studies-summary">
 									<span>Videos</span>
 									<h2>Youtube Chanel</h2>
 								</div>
 							</a>
 						</li>
-						<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/img_6.jpg); ">
+						<li class="two-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_6.jpg); ">
 							<a href="http://diarsa.tigrimigri.com" target="_blank" class="color-6">
 								<div class="case-studies-summary">
 									<span>Skripsi</span>
@@ -307,7 +317,7 @@
 			</div>
 
 			<div class="row">
-				<div class="col-md-4 col-md-offset-4 text-center animate-box">
+				<div class="col-md-4 col-md-offset-4 text-center ">
 <!-- 					<a href="#" class="btn btn-white btn-outline btn-lg btn-block">See All Our Works</a> -->
 				</div>
 			</div>
@@ -320,7 +330,7 @@
 		<div class="gtco-container">
 
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading ">
 					<h2>Fun Facts</h2>
 					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
 				</div>
@@ -328,7 +338,7 @@
 
 			<div class="row">
 
-				<div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+				<div class="col-md-3 col-sm-6 " data-animate-effect="fadeInLeft">
 					<div class="feature-center">
 						<span class="icon">
 							<i class="ti-settings"></i>
@@ -338,7 +348,7 @@
 
 					</div>
 				</div>
-				<div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+				<div class="col-md-3 col-sm-6 " data-animate-effect="fadeInLeft">
 					<div class="feature-center">
 						<span class="icon">
 							<i class="ti-face-smile"></i>
@@ -347,7 +357,7 @@
 						<span class="counter-label">Happy Clients</span>
 					</div>
 				</div>
-				<div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+				<div class="col-md-3 col-sm-6 " data-animate-effect="fadeInLeft">
 					<div class="feature-center">
 						<span class="icon">
 							<i class="ti-briefcase"></i>
@@ -356,7 +366,7 @@
 						<span class="counter-label">Projects Done</span>
 					</div>
 				</div>
-				<div class="col-md-3 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+				<div class="col-md-3 col-sm-6 " data-animate-effect="fadeInLeft">
 					<div class="feature-center">
 						<span class="icon">
 							<i class="ti-time"></i>
@@ -373,13 +383,13 @@
 
 	<div id="gtco-products">
 		<div class="gtco-container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
+			<div class="row ">
+				<div class="col-md-8 col-md-offset-2 text-center gtco-heading ">
 					<h2>Products</h2>
 					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
 				</div>
 			</div>
-			<div class="row animate-box">
+			<div class="row ">
 				<div class="owl-carousel owl-carousel-carousel">
 					<div class="item">
 						<img src="images/img_1.jpg" alt="Free HTML5 Bootstrap Template by GetTemplates.co">
@@ -402,13 +412,13 @@
 
 	<div id="gtco-subscribe">
 		<div class="gtco-container">
-			<div class="row animate-box">
+			<div class="row ">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading">
 					<h2>Subscribe</h2>
 					<p>Be the first to know about the new templates.</p>
 				</div>
 			</div>
-			<div class="row animate-box">
+			<div class="row ">
 				<div class="col-md-12">
 					<form class="form-inline">
 						<div class="col-md-4 col-sm-4">
@@ -436,32 +446,34 @@
 		<div class="gtco-container">
 			<div class="row row-p	b-md">
 
-				<div class="col-md-4">
+				<div class="col-md-4 animate-box ">
 					<div class="gtco-widget">
 						<h3>Tentang</h3>
 						<p>Halaman website ini adalah halaman website penghubung semua website yang saya punya dan dibuat dengan GitHub page.</p>
 					</div>
 				</div>
 
-				<div class="col-md-4 col-md-push-1">
+				<div class="col-md-4 col-md-push-1 animate-box ">
 					<div class="gtco-widget">
 						<h3>Link</h3>
 						<ul class="gtco-footer-links">
-							<li><a href="http://facebook.com/bdiarsa">Facebook</a></li>
-							<li><a href="http://twitter.com/BAYUdiarsa">Twitter</a></li>
-							<li><a href="http://instagram.com/bayudiarsa">Instagram</a></li>
-							<li><a href="http://diarsa.github.io">Blog Personal</a></li>
-							<li><a href="http://diarsas.blogspot.com">Blog Tutorial</a></li>
+							<li><a href="<?php echo $facebook; ?>">Facebook</a></li>
+							<li><a href="<?php echo $twitter; ?>">Twitter</a></li>
+							<li><a href="<?php echo $instagram; ?>">Instagram</a></li>
+							<li><a href="<?php echo $wa; ?>">WhatsApp</a></li>
+							<li><a href="<?php echo $telegram; ?>">Telegram</a></li>
+							<li><a href="https://diarsa.github.io">Blog Personal</a></li>
+							<li><a href="https://diarsas.blogspot.com">Blog Tutorial</a></li>
 						</ul>
 					</div>
 				</div>
 
-				<div class="col-md-4">
+				<div class="col-md-4 animate-box ">
 					<div class="gtco-widget">
 						<h3>Kontak</h3>
 						<ul class="gtco-quick-contact">
-							<li><a href="tel:+6281339377005"><i class="icon-phone"></i> 081 339 377 005</a></li>
-							<li><a href="mailto:hai@bayudiarsa.com"><i class="icon-mail2"></i> hai@bayudiarsa.com</a></li>
+							<li><a href="tel:<?php echo $nomor; ?>"><i class="icon-phone"></i> <?php echo $nomor; ?></a></li>
+							<li><a href="mailto:<?php echo $email; ?>"><i class="icon-mail2"></i> <?php echo $email; ?> </a></li>
 							<!-- <li><a href="#"><i class="icon-chat"></i> Live Chat</a></li> -->
 						</ul>
 					</div>
@@ -471,17 +483,27 @@
 
 			<div class="row copyright">
 				<div class="col-md-12">
-					<p class="pull-left">
-						<small class="block">&copy; 2016-2018 Bayu Diarsa. All Rights Reserved.</small>
+					<p class="pull-left animate-box ">
+						<small class="block">&copy;
+						<?php
+						    $dibuat = 2016;
+						    $year_now = date('Y');
+						    if($dibuat == $year_now) {
+						        echo $dibuat;
+						    } else {
+						        echo $dibuat."-".$year_now;
+						    }
+						?>
+						<?php echo $name; ?>. All Rights Reserved.</small>
 						<!-- <small class="block">Designed by <a href="http://gettemplates.co/" target="_blank">GetTemplates.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small> -->
 					</p>
 					<p class="pull-right">
-						<ul class="gtco-social-icons pull-right">
+						<ul class="gtco-social-icons pull-right animate-box ">
 
-							<li><a href="http://twitter.com/BAYUdiarsa"><i class="icon-twitter"></i></a></li>
-							<li><a href="http://facebook.com/bdiarsa"><i class="icon-facebook"></i></a></li>
-							<li><a href="http://instagram.com/bayudiarsa"><i class="icon-instagram"></i></a></li>
-							<li><a href="http://linkedin.com/in/bdiarsa"><i class="icon-linkedin"></i></a></li>
+							<li><a href="<?php echo $twitter; ?>"><i class="icon-twitter"></i></a></li>
+							<li><a href="<?php echo $facebook; ?>"><i class="icon-facebook"></i></a></li>
+							<li><a href="<?php echo $instagram; ?>"><i class="icon-instagram"></i></a></li>
+							<li><a href="<?php echo $linkedin; ?>"><i class="icon-linkedin"></i></a></li>
 							<!-- <li><a href="#"><i class="icon-dribbble"></i></a></li> -->
 						</ul>
 					</p>
@@ -497,24 +519,30 @@
 	</div>
 
 	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
+	<script src="main/js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="main/js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
+	<script src="main/js/bootstrap.min.js"></script>
 	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="main/js/jquery.waypoints.min.js"></script>
 	<!-- Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
+	<script src="main/js/owl.carousel.min.js"></script>
 	<!-- countTo -->
-	<script src="js/jquery.countTo.js"></script>
+	<script src="main/js/jquery.countTo.js"></script>
 	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
+	<script src="main/js/jquery.magnific-popup.min.js"></script>
+	<script src="main/js/magnific-popup-options.js"></script>
 	<!-- Main -->
-	<script src="js/main.js"></script>
+	<script src="main/js/main.js"></script>
 
-
+	<!-- BEGIN JIVOSITE CODE {literal} -->
+<!--
+<script type='text/javascript'>
+(function(){ var widget_id = 'dVis4h3YEr';var d=document;var w=window;function l(){
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
+-->
+<!-- {/literal} END JIVOSITE CODE -->
 
 	</body>
 </html>
