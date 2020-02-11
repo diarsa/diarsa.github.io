@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<?php
+<?php 
     $name = "Bayu Diarsa";
     $ulr = "https://www.bayudiarsa.com";
     $facebook = "https://www.facebook.com/bdiarsa";
@@ -8,16 +8,16 @@
     $telegram = "https://t.me/diarsa";
     $wa = "https://wa.me/6281339377005";
     $linkedin = "https://linkedin.com/in/bdiarsa";
-
+    
     $email = "hai@bayudiarsa.com";
     $nomor = "+6281339377005";
 ?>
 <html>
-	<head>
-	<meta charset="utf-8">
+	<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title><?php echo $name; ?> | Website Resmi</title>
-	<link rel="shortcut icon" href="/images/bd.png">
+	<link rel="shortcut icon" href="/main/images/bd.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="website resmi Bayu Diarsa" />
 	<meta name="keywords" content="bayu diarsa, website resmi, blog" />
@@ -34,35 +34,35 @@
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
 
-	 <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
-
+	 <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet"> 
+	
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="main/css/animate.css">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="main/css/icomoon.css">
 	<!-- Themify Icons-->
-	<link rel="stylesheet" href="css/themify-icons.css">
+	<link rel="stylesheet" href="main/css/themify-icons.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="main/css/bootstrap.css">
 
 	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="main/css/magnific-popup.css">
 
 	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="main/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="main/css/owl.theme.default.min.css">
 
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="main/css/style.css">
 
 	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="main/js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
+	<script src="main/js/respond.min.js"></script>
 	<![endif]-->
-
-
+		
+	
 	<!--  ANALITIK  -->
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -71,18 +71,34 @@
 	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
 	  ga('create', 'UA-104706865-1', 'auto');
+      ga('require', 'GTM-W6FSPS9');
 	  ga('send', 'pageview');
 
 	</script>
 	<!-- ANALITIK -->
-
+	
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+    <!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-104706865-1"></script>-->
+    <!--<script>-->
+    <!--  window.dataLayer = window.dataLayer || [];-->
+    <!--  function gtag(){dataLayer.push(arguments);}-->
+    <!--  gtag('js', new Date());-->
+    
+    <!--  gtag('config', 'UA-104706865-1');-->
+    <!--</script>-->
+    
+    <!--Crisp Chat-->
+    <!--<script type="text/javascript"> window.$crisp=[];window.CRISP_WEBSITE_ID="89f83e33-ead9-4f9f-91c7-1d3899618bae";(function(){ d=document;s=d.createElement("script"); s.src="https://client.crisp.chat/l.js"; s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})(); </script>-->
+    <!--End Crisp Chat-->
+    
 	</head>
 	<body>
-
+		
 
 
 	<div class="gtco-loader"></div>
-
+	
 	<div id="page">
 	<nav class="gtco-nav" role="navigation">
 		<div class="gtco-container">
@@ -93,7 +109,7 @@
 						<li><a href="<?php echo $facebook; ?>"><i class="ti-facebook"></i></a></li>
 						<li><a href="<?php echo $twitter; ?>"><i class="ti-twitter-alt"></i> </a></li>
 						<li><a href="mailto:<?php echo $email; ?>"><i class="icon-mail2"></i></a></li>
-
+						
 					</ul>
 				</div>
 			</div>
@@ -121,11 +137,11 @@
 					</ul>
 				</div>
 			</div>
-
+			
 		</div>
 	</nav>
 
-	<header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url(images/img_bg_1.jpg);">
+	<header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url(main/images/img_bg_1.jpg);">
 		<div class="overlay"></div>
 		<div class="gtco-container">
 			<div class="row">
@@ -136,8 +152,9 @@
 							<h1 class="animate-box " data-animate-effect="fadeInUp">Welcome to official website Bayu Diarsa</h1>
 							<h2 class="animate-box " data-animate-effect="fadeInUp">scroll ke bawah untuk info lebih lengkap</h2>
 							<p class="animate-box " data-animate-effect="fadeInUp">
-							    <a href="#karya" class="btn btn-white btn-lg btn-outline">Karya</a>
-							    <a href="/blog" class="btn btn-white btn-lg btn-outline">Blog</a>
+							    <a href="#karya" class="btn btn-white btn-lg btn-outline">Karya</a> 
+							    <a href="/blog" class="btn btn-white btn-lg btn-outline">Blog</a> 
+							    
 							</p>
 						</div>
 					</div>
@@ -182,7 +199,7 @@
 			</div>
 		</div>
 	</div>
-
+	
 	<div id="gtco-features">
 		<div class="gtco-container">
 			<div class="row">
@@ -228,8 +245,8 @@
 						<p>Dan kadang menjadi videographer juga karena suka dengan dunia videography. </p>
 					</div>
 				</div>
-
-
+				
+				
 			</div>
 		</div>
 	</div>
@@ -246,7 +263,55 @@
 			<div class="row row-pb-md">
 				<div class="col-md-12">
 					<ul id="gtco-portfolio-list">
-						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_4.jpg); ">
+					    <li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_1.jpg); "> 
+							<a href="https://multiglassbali.com/" target="_blank" class="color-5">
+								<div class="case-studies-summary">
+									<span>Web Profile</span>
+									<h2> Multi Glass Bali </h2>
+								</div>
+							</a>
+						</li>
+						<li class="two-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_4.jpg); "> 
+							<a href="https://tradisipraja.banglikab.go.id/" target="_blank" class="color-1">
+								<div class="case-studies-summary">
+									<span>Web App</span>
+									<h2> SIM RENJA DPRD Kab. Bangli </h2>
+								</div>
+							</a>
+						</li>
+					    <li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_3.jpg); "> 
+							<a href="https://simdata-phr.banglikab.go.id/" target="_blank" class="color-3">
+								<div class="case-studies-summary">
+									<span>Web App</span>
+									<h2> SIM DATA PHR Kab. Bangli </h2>
+								</div>
+							</a>
+						</li>
+						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_2.jpg); "> 
+							<a href="https://busurgandiwa-rsud.banglikab.go.id/" target="_blank" class="color-4">
+								<div class="case-studies-summary">
+									<span>Web App</span>
+									<h2> Busur Gandiwa RSUD Bangli </h2>
+								</div>
+							</a>
+						</li>
+						<li class="two-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_4.jpg); "> 
+							<a href="http://sidea.banglikab.go.id" target="_blank" class="color-2">
+								<div class="case-studies-summary">
+									<span>Web App</span>
+									<h2>SI DEA (Sistem Informasi Dashboard Eksekutif Aset) </h2>
+								</div>
+							</a>
+						</li>
+						<li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_4.jpg); "> 
+							<a href="https://play.google.com/store/apps/details?id=id.ac.undiksha.pasca.siskav5" target="_blank" class="color-1">
+								<div class="case-studies-summary">
+									<span>Mobile App</span>
+									<h2>SIsKA </h2>
+								</div>
+							</a>
+						</li>
+						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_4.jpg); "> 
 							<a href="https://ppifilipina.org" target="_blank" class="color-4">
 								<div class="case-studies-summary">
 									<span>Web Organisasi</span>
@@ -254,7 +319,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_3.jpg); ">
+						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_3.jpg); "> 
 							<a href="https://orangketik.com" target="_blank" class="color-1">
 								<div class="case-studies-summary">
 									<span>Blog</span>
@@ -262,7 +327,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="two-third animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_1.jpg); ">
+						<li class="two-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_1.jpg); "> 
 							<a href="https://bpbd.banglikab.go.id/daftarpengungsi" target="_blank" class="color-1">
 								<div class="case-studies-summary">
 									<span>Web App</span>
@@ -270,7 +335,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_2.jpg); ">
+						<li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_2.jpg); ">
 							<a href="http://desalabasari.com" target="_blank" class="color-2">
 								<div class="case-studies-summary">
 									<span>Web Desa</span>
@@ -279,7 +344,7 @@
 							</a>
 						</li>
 
-						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_3.jpg); ">
+						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_3.jpg); ">
 							<a href="https://potensi.banglikab.go.id" target="_blank" class="color-3">
 								<div class="case-studies-summary">
 									<span>Web App</span>
@@ -287,7 +352,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_4.jpg); ">
+						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_4.jpg); ">
 							<a href=" https://maimelali.banglikab.go.id" target="_blank" class="color-4">
 								<div class="case-studies-summary">
 									<span>Web App</span>
@@ -296,7 +361,7 @@
 							</a>
 						</li>
 
-						<li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_5.jpg); ">
+						<li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_5.jpg); "> 
 							<a href="http://www.youtube.com/BayuDiarsa" target="_blank" class="color-5">
 								<div class="case-studies-summary">
 									<span>Videos</span>
@@ -304,7 +369,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="two-third animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_6.jpg); ">
+						<li class="two-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_6.jpg); ">
 							<a href="http://diarsa.tigrimigri.com" target="_blank" class="color-6">
 								<div class="case-studies-summary">
 									<span>Skripsi</span>
@@ -312,7 +377,7 @@
 								</div>
 							</a>
 						</li>
-					</ul>
+					</ul>		
 				</div>
 			</div>
 
@@ -322,7 +387,7 @@
 				</div>
 			</div>
 
-
+			
 		</div>
 	</div>
 
@@ -337,7 +402,7 @@
 			</div>
 
 			<div class="row">
-
+				
 				<div class="col-md-3 col-sm-6 " data-animate-effect="fadeInLeft">
 					<div class="feature-center">
 						<span class="icon">
@@ -376,7 +441,7 @@
 
 					</div>
 				</div>
-
+					
 			</div>
 		</div>
 	</div>
@@ -408,7 +473,7 @@
 		</div>
 	</div>
 
-
+	
 
 	<div id="gtco-subscribe">
 		<div class="gtco-container">
@@ -484,22 +549,22 @@
 			<div class="row copyright">
 				<div class="col-md-12">
 					<p class="pull-left animate-box ">
-						<small class="block">&copy;
-						<?php
+						<small class="block">&copy; 
+						<?php 
 						    $dibuat = 2016;
 						    $year_now = date('Y');
 						    if($dibuat == $year_now) {
 						        echo $dibuat;
 						    } else {
-						        echo $dibuat."-".$year_now;
+						        echo $dibuat."-".$year_now; 
 						    }
-						?>
-						<?php echo $name; ?>. All Rights Reserved.</small>
+						?>  
+						<?php echo $name; ?>. All Rights Reserveds.</small> 
 						<!-- <small class="block">Designed by <a href="http://gettemplates.co/" target="_blank">GetTemplates.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small> -->
 					</p>
 					<p class="pull-right">
 						<ul class="gtco-social-icons pull-right animate-box ">
-
+														
 							<li><a href="<?php echo $twitter; ?>"><i class="icon-twitter"></i></a></li>
 							<li><a href="<?php echo $facebook; ?>"><i class="icon-facebook"></i></a></li>
 							<li><a href="<?php echo $instagram; ?>"><i class="icon-instagram"></i></a></li>
@@ -517,25 +582,39 @@
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
-
+	
+	<!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5a62c07a4b401e45400c3dc1/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+	
 	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
+	<script src="main/js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="main/js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
+	<script src="main/js/bootstrap.min.js"></script>
 	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="main/js/jquery.waypoints.min.js"></script>
 	<!-- Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
+	<script src="main/js/owl.carousel.min.js"></script>
 	<!-- countTo -->
-	<script src="js/jquery.countTo.js"></script>
+	<script src="main/js/jquery.countTo.js"></script>
 	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
+	<script src="main/js/jquery.magnific-popup.min.js"></script>
+	<script src="main/js/magnific-popup-options.js"></script>
 	<!-- Main -->
-	<script src="js/main.js"></script>
-
+	<script src="main/js/main.js"></script>
+	
 	<!-- BEGIN JIVOSITE CODE {literal} -->
 <!--
 <script type='text/javascript'>
@@ -543,6 +622,11 @@
 var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
 -->
 <!-- {/literal} END JIVOSITE CODE -->
-
+	
+	<!--TIDIO Chat-->
+    <!--<script src="//code.tidio.co/t72bwznnuinpcbrwxpxxatrbcogkku0x.js"></script>-->
+    <!--TIDIO Chat-->
+    
 	</body>
 </html>
+
