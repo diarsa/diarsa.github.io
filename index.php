@@ -263,6 +263,14 @@
 			<div class="row row-pb-md">
 				<div class="col-md-12">
 					<ul id="gtco-portfolio-list">
+						<li class="two-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_4.jpg); "> 
+							<a href="https://covid19.banglikab.go.id" target="_blank" class="color-4">
+								<div class="case-studies-summary">
+									<span>Web App</span>
+									<h2>Pusat Informasi COVID-19 Pemkab Bangli </h2>
+								</div>
+							</a>
+						</li>
 					    <li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_1.jpg); "> 
 							<a href="https://multiglassbali.com/" target="_blank" class="color-5">
 								<div class="case-studies-summary">
