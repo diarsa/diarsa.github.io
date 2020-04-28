@@ -271,7 +271,15 @@
 								</div>
 							</a>
 						</li>
-					    <li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_1.jpg); "> 
+					    <li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_4.jpg); "> 
+							<a href="#" target="_blank" class="color-1">
+								<div class="case-studies-summary">
+									<span>  </span>
+									<h2>  </h2>
+								</div>
+							</a>
+						</li>
+						<li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_1.jpg); "> 
 							<a href="https://multiglassbali.com/" target="_blank" class="color-5">
 								<div class="case-studies-summary">
 									<span>Web Profile</span>
