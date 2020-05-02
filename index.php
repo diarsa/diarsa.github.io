@@ -13,53 +13,55 @@
     $nomor = "+6281339377005";
 ?>
 <html>
-	<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="google-site-verification" content="vWopUAgpvhno6MEE4u460QjGGo0wr-EnvPWxlQ8PE1c" />
 	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title><?php echo $name; ?> | Website Resmi</title>
-	<link rel="shortcut icon" href="/main/images/bd.png">
+	<link rel="shortcut icon" href="/images/bd.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="website resmi Bayu Diarsa" />
-	<meta name="keywords" content="bayu diarsa, website resmi, blog" />
-	<meta name="author" content="gettemplates.co" />
+	<meta name="keywords" content="bayu diarsa, website resmi, blog, teknologi, masa kini, bangli, bali, indonesia" />
+	<meta name="author" content="<?php echo $name; ?>" />
 
   	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
+	<meta property="og:title" content="<?php echo $name; ?>"/>
 	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
+	<meta property="og:url" content="<?php echo $url; ?>"/>
+	<meta property="og:site_name" content="<?php echo $name; ?>"/>
 	<meta property="og:description" content=""/>
 	<meta name="twitter:title" content="" />
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
 
-	 <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet"> 
+	 <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"> 
 	
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="main/css/animate.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="main/css/icomoon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
 	<!-- Themify Icons-->
-	<link rel="stylesheet" href="main/css/themify-icons.css">
+	<link rel="stylesheet" href="css/themify-icons.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="main/css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
 
 	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="main/css/magnific-popup.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
 
 	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="main/css/owl.carousel.min.css">
-	<link rel="stylesheet" href="main/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="main/css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 
 	<!-- Modernizr JS -->
-	<script src="main/js/modernizr-2.6.2.min.js"></script>
+	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
-	<script src="main/js/respond.min.js"></script>
+	<script src="js/respond.min.js"></script>
 	<![endif]-->
 		
 	
@@ -141,7 +143,7 @@
 		</div>
 	</nav>
 
-	<header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url(main/images/img_bg_1.jpg);">
+	<header id="gtco-header" class="gtco-cover" role="banner" style="background-image:url(images/img_bg_1.jpg);">
 		<div class="overlay"></div>
 		<div class="gtco-container">
 			<div class="row">
@@ -256,14 +258,14 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading ">
 					<h2>Karya</h2>
-					<!--<p>Berikut ini beberapa karya dari saya.</p>-->
+					<p>Berikut ini beberapa karya dari saya.</p>
 				</div>
 			</div>
 
 			<div class="row row-pb-md">
 				<div class="col-md-12">
 					<ul id="gtco-portfolio-list">
-						<li class="two-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_4.jpg); "> 
+						<li class="two-third animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_4.jpg); "> 
 							<a href="https://covid19.banglikab.go.id" target="_blank" class="color-4">
 								<div class="case-studies-summary">
 									<span>Web App</span>
@@ -271,7 +273,7 @@
 								</div>
 							</a>
 						</li>
-					    <li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_4.jpg); "> 
+					    <li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_4.jpg); "> 
 							<a href="#" target="_blank" class="color-1">
 								<div class="case-studies-summary">
 									<span>  </span>
@@ -279,7 +281,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_1.jpg); "> 
+						<li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_1.jpg); "> 
 							<a href="https://multiglassbali.com/" target="_blank" class="color-5">
 								<div class="case-studies-summary">
 									<span>Web Profile</span>
@@ -287,7 +289,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="two-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_4.jpg); "> 
+						<li class="two-third animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_4.jpg); "> 
 							<a href="https://tradisipraja.banglikab.go.id/" target="_blank" class="color-1">
 								<div class="case-studies-summary">
 									<span>Web App</span>
@@ -295,7 +297,7 @@
 								</div>
 							</a>
 						</li>
-					    <li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_3.jpg); "> 
+					    <li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_3.jpg); "> 
 							<a href="https://simdata-phr.banglikab.go.id/" target="_blank" class="color-3">
 								<div class="case-studies-summary">
 									<span>Web App</span>
@@ -303,7 +305,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_2.jpg); "> 
+						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_2.jpg); "> 
 							<a href="https://busurgandiwa-rsud.banglikab.go.id/" target="_blank" class="color-4">
 								<div class="case-studies-summary">
 									<span>Web App</span>
@@ -311,7 +313,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="two-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_4.jpg); "> 
+						<li class="two-third animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_4.jpg); "> 
 							<a href="http://sidea.banglikab.go.id" target="_blank" class="color-2">
 								<div class="case-studies-summary">
 									<span>Web App</span>
@@ -319,7 +321,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_4.jpg); "> 
+						<li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_4.jpg); "> 
 							<a href="https://play.google.com/store/apps/details?id=id.ac.undiksha.pasca.siskav5" target="_blank" class="color-1">
 								<div class="case-studies-summary">
 									<span>Mobile App</span>
@@ -327,7 +329,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_4.jpg); "> 
+						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_4.jpg); "> 
 							<a href="https://ppifilipina.org" target="_blank" class="color-4">
 								<div class="case-studies-summary">
 									<span>Web Organisasi</span>
@@ -335,7 +337,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_3.jpg); "> 
+						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_3.jpg); "> 
 							<a href="https://orangketik.com" target="_blank" class="color-1">
 								<div class="case-studies-summary">
 									<span>Blog</span>
@@ -343,7 +345,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="two-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_1.jpg); "> 
+						<li class="two-third animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_1.jpg); "> 
 							<a href="https://bpbd.banglikab.go.id/daftarpengungsi" target="_blank" class="color-1">
 								<div class="case-studies-summary">
 									<span>Web App</span>
@@ -351,7 +353,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_2.jpg); ">
+						<li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_2.jpg); ">
 							<a href="http://desalabasari.com" target="_blank" class="color-2">
 								<div class="case-studies-summary">
 									<span>Web Desa</span>
@@ -360,7 +362,7 @@
 							</a>
 						</li>
 
-						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_3.jpg); ">
+						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_3.jpg); ">
 							<a href="https://potensi.banglikab.go.id" target="_blank" class="color-3">
 								<div class="case-studies-summary">
 									<span>Web App</span>
@@ -368,7 +370,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_4.jpg); ">
+						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_4.jpg); ">
 							<a href=" https://maimelali.banglikab.go.id" target="_blank" class="color-4">
 								<div class="case-studies-summary">
 									<span>Web App</span>
@@ -377,7 +379,7 @@
 							</a>
 						</li>
 
-						<li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_5.jpg); "> 
+						<li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_5.jpg); "> 
 							<a href="http://www.youtube.com/BayuDiarsa" target="_blank" class="color-5">
 								<div class="case-studies-summary">
 									<span>Videos</span>
@@ -385,7 +387,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="two-third animate-box " data-animate-effect="fadeIn" style="background-image: url(main/images/img_6.jpg); ">
+						<li class="two-third animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_6.jpg); ">
 							<a href="http://diarsa.tigrimigri.com" target="_blank" class="color-6">
 								<div class="case-studies-summary">
 									<span>Skripsi</span>
@@ -614,22 +616,22 @@
     <!--End of Tawk.to Script-->
 	
 	<!-- jQuery -->
-	<script src="main/js/jquery.min.js"></script>
+	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
-	<script src="main/js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
-	<script src="main/js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<!-- Waypoints -->
-	<script src="main/js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- Carousel -->
-	<script src="main/js/owl.carousel.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
 	<!-- countTo -->
-	<script src="main/js/jquery.countTo.js"></script>
+	<script src="js/jquery.countTo.js"></script>
 	<!-- Magnific Popup -->
-	<script src="main/js/jquery.magnific-popup.min.js"></script>
-	<script src="main/js/magnific-popup-options.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
 	<!-- Main -->
-	<script src="main/js/main.js"></script>
+	<script src="js/main.js"></script>
 	
 	<!-- BEGIN JIVOSITE CODE {literal} -->
 <!--
