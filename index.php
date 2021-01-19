@@ -282,10 +282,10 @@
 							</a>
 						</li>
 						<li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_1.jpg); "> 
-							<a href="https://multiglassbali.com/" target="_blank" class="color-5">
+							<a href="https://sitobang.banglikab.go.id/" target="_blank" class="color-5">
 								<div class="case-studies-summary">
-									<span>Web Profile</span>
-									<h2> Multi Glass Bali </h2>
+									<span>Web App</span>
+									<h2> SITOBANG Kab. Bangli </h2>
 								</div>
 							</a>
 						</li>
