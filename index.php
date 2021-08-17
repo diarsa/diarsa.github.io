@@ -265,6 +265,38 @@
 			<div class="row row-pb-md">
 				<div class="col-md-12">
 					<ul id="gtco-portfolio-list">
+						<li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_2.jpg); "> 
+							<a href="https://dev.banglikab.go.id/dakep" target="_blank" class="color-2">
+								<div class="case-studies-summary">
+									<span>Web App</span>
+									<h2> DAKEP Kab. Bangli </h2>
+								</div>
+							</a>
+						</li>
+						<li class="two-third animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_3.jpg); "> 
+							<a href="https://isodes.banglikab.go.id/" target="_blank" class="color-1">
+								<div class="case-studies-summary">
+									<span>Web App</span>
+									<h2> Isodes Kab. Bangli </h2>
+								</div>
+							</a>
+						</li>
+						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_1.jpg); "> 
+							<a href="https://bangli1data.banglikab.go.id/" target="_blank" class="color-5">
+								<div class="case-studies-summary">
+									<span>Web App</span>
+									<h2> Bangli 1 Data </h2>
+								</div>
+							</a>
+						</li>
+						<li class="one-half animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_2.jpg); "> 
+							<a href="https://sidak.banglikab.go.id/" target="_blank" class="color-3">
+								<div class="case-studies-summary">
+									<span>Web App</span>
+									<h2> SIDAK Kab. Bangli </h2>
+								</div>
+							</a>
+						</li>
 						<li class="two-third animate-box " data-animate-effect="fadeIn" style="background-image: url(images/img_4.jpg); "> 
 							<a href="https://covid19.banglikab.go.id" target="_blank" class="color-4">
 								<div class="case-studies-summary">
