@@ -258,7 +258,7 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center gtco-heading ">
 					<h2>Karya</h2>
-					<p>Berikut ini beberapa karya dari saya.</p>
+					<!-- <p>Berikut ini beberapa karya dari saya.</p> -->
 				</div>
 			</div>
 
